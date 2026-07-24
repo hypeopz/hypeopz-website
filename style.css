@@ -500,7 +500,7 @@ body{
 }
 .hero-content{
     padding-top: 150px; /* ഇവിടെ മുകളിൽ ആവശ്യത്തിന് സ്ഥലം നൽകുക (ഉദാഹരണത്തിന്: 150px അല്ലെങ്കിൽ 180px) */
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
