@@ -259,3 +259,28 @@ section .lead{color:var(--text-dim);font-size:16px;max-width:600px;margin-bottom
     color:#d6d6d6;
     line-height:1.8;
 }
+/* Scroll To Top */
+
+#scrollTopBtn{
+    display:none;
+    position:fixed;
+    bottom:25px;
+    left:25px;
+    z-index:999;
+    border:none;
+    outline:none;
+    background:#ff8c42;
+    color:#fff;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    font-size:22px;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+#scrollTopBtn:hover{
+    background:#ff9d5c;
+    transform:scale(1.1);
+}
