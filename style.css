@@ -235,3 +235,27 @@ section .lead{color:var(--text-dim);font-size:16px;max-width:600px;margin-bottom
   .hero-stats{gap:22px;}
   .navbar{padding:16px 20px;}
 }
+/* FAQ */
+
+.faq{
+    background:#14121b;
+    color:#ffffff;
+}
+
+.faq-item{
+    background:#1e1a29;
+    border:1px solid rgba(255,255,255,0.08);
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+}
+
+.faq-item h3{
+    margin-bottom:10px;
+    color:#ff8c42;
+}
+
+.faq-item p{
+    color:#d6d6d6;
+    line-height:1.8;
+}
