@@ -1,13 +1,18 @@
 :root{
-  --ink:#14121b;
-  --ink-2:#1e1a29;
-  --ink-3:#2a2438;
-  --bone:#f7f1ee;
-  --pink:#ff3d68;
-  --lime:#c6ff3d;
-  --violet:#7c5cff;
-  --text-dim:#a49fb3;
-  --text-dim-2:#5c5468;
+  /* Main Theme */
+  --ink:#1f2937;        /* Dark Text */
+  --ink-2:#FF8C42;      /* Primary Orange */
+  --ink-3:#FFD29D;      /* Light Orange */
+
+  --bone:#FFFFFF;       /* Background White */
+
+  --pink:#FF8C42;       /* Buttons / CTA */
+  --lime:#FFD29D;       /* Highlights */
+  --violet:#FFB36B;     /* Hover / Accent */
+
+  --text-dim:#6B7280;   /* Secondary Text */
+  --text-dim-2:#9CA3AF; /* Light Text */
+
   --radius:18px;
   --maxw:1180px;
 }
