@@ -141,7 +141,7 @@ section .lead{color:var(--text-dim);font-size:16px;max-width:600px;margin-bottom
 
 /* SERVICES */
 .services{background:var(--bg);}
-.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
 .service-card{
   background:#fff;border-radius:16px;padding:26px 22px;border:1px solid var(--border);
   transition:transform .25s ease, box-shadow .25s ease;
@@ -182,9 +182,9 @@ section .lead{color:var(--text-dim);font-size:16px;max-width:600px;margin-bottom
 .price{font-family:'JetBrains Mono',monospace;font-size:38px;font-weight:600;display:flex;align-items:baseline;gap:6px;margin-bottom:6px;color:var(--ink);}
 .price span{font-size:13px;color:var(--text-dim-2);font-weight:400;}
 .package-card ul{list-style:none;margin:24px 0 28px;flex-grow:1;}
-.package-card li{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--text-dim);padding:8px 0;border-top:1px solid var(--border);}
+.package-card li{display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:1.4;color:var(--text-dim);padding:7px 0;border-top:1px solid var(--border);}
 .package-card li:first-child{border-top:none;}
-.package-card li i{color:var(--primary);margin-top:3px;font-size:12px;}
+.package-card li i{color:var(--primary);margin-top:2px;font-size:11px;flex-shrink:0;}
 .package-card .btn{justify-content:center;}
 
 /* PORTFOLIO */
